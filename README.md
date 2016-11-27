@@ -14,9 +14,9 @@ not conflict with other ChiliPeppr objects.
 | ID                    | com-chilipeppr-workspace-rob |
 | Name                  | Workspace / rob |
 | Description           | A ChiliPeppr Workspace rob. |
-| chilipeppr.load() URL | http://raw.githubusercontent.com/https://master/auto-generated-workspace.html |
+| chilipeppr.load() URL | http://raw.githubusercontent.com/qarth/workspace-rob/master/auto-generated-workspace.html |
 | Edit URL              | http://ide.c9.io/qarth/workspace-rob |
-| Github URL            | http://github.com/https:/ |
+| Github URL            | http://github.com/qarth/workspace-rob |
 | Test URL              | https://preview.c9users.io/qarth/workspace-rob/workspace.html |
 
 ## Example Code for chilipeppr.load() Statement
@@ -34,7 +34,7 @@ back the instance of it to init() it.
 // this workspace should be loaded into.
 chilipeppr.load(
   "#pnlWorkspace",
-  "http://raw.githubusercontent.com/https://master/auto-generated-workspace.html",
+  "http://raw.githubusercontent.com/qarth/workspace-rob/master/auto-generated-workspace.html",
   function() {
     // Callback after workspace loaded into #pnlWorkspace
     // Now use require.js to get reference to instantiated workspace
